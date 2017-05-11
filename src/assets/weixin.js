@@ -15,7 +15,7 @@ export default {
     }
 
     function loadShareConfig () {
-      var apiUrl = 'http://www.xhwhouse.com/api/agent/?return=jsonp&r=' + Math.random() + '&callback=jsonp1&key=f74690c65e061249&module=jwx_config&url=' + encodeURIComponent(window.location.href)
+      var apiUrl = '//www.xhwhouse.com/api/agent/?return=jsonp&r=' + Math.random() + '&callback=jsonp1&key=f74690c65e061249&module=jwx_config&url=' + encodeURIComponent(window.location.href)
       loadJsFile(apiUrl)
     }
 
@@ -73,7 +73,7 @@ export default {
         if (window.wx) {
           initWx(window.wx, result)
         } else {
-          loadJsFile('http://res.wx.qq.com/open/js/jweixin-1.0.0.js')
+          loadJsFile('//res.wx.qq.com/open/js/jweixin-1.0.0.js')
         }
       }
     }
