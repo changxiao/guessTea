@@ -68,8 +68,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-.page3{ background-image: url(/static/img/page2bg.png);
-  .page3con{ background: url(/static/img/page3border.png) 0 0 no-repeat; background-size: cover; padding-top: 360rem; height: 620rem; text-align: center;}
+.page3{ background-image: url(../../static/img/page2bg.png);
+  .page3con{ background: url(../../static/img/page3border.png) 0 0 no-repeat; background-size: cover; padding-top: 360rem; height: 620rem; text-align: center;}
   .textbigger,.textsmaller{ color: #fff; margin: 0; line-height: 1.4;} 
   .textbigger{ font-size: 60rem; }
   .textsmaller{ font-size: 48rem; margin-top: 10rem;}
