@@ -119,7 +119,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 .page1{ }
-.page1::after{ content:''; width: 100%; height:100%; background: url(../../static/page1shadow.png) 0 0 no-repeat; background-size: cover; position: absolute; left: 0; top: 0; z-index: 2;}
+.page1::after{ content:''; width: 100%; height:100%; background: url(/static/page1shadow.png) 0 0 no-repeat; background-size: cover; position: absolute; left: 0; top: 0; z-index: 2;}
 .page1top{ position: absolute; left: 50%; transform: translateX(-50%); width: 294rem; height: 140rem;
 }
 .page1bot{ position: absolute; left: 50%; bottom:0; transform: translateX(-50%); width: 560rem; height: 130rem;
