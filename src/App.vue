@@ -38,7 +38,6 @@ html,body{
   font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
 }
 .clearfix::after{ content:''; display: table; clear:both;}
-.page{height: 100%; background: url(../static/img/page1bg.jpg) 0 0 no-repeat; background-size: cover;}
 #app { height: 100%; overflow: hidden; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -118,6 +118,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+.page{height: 100%; background: url(../../static/img/page1bg.jpg) 0 0 no-repeat; background-size: cover;}
 .page1{ }
 .page1::after{ content:''; width: 100%; height:100%; background: url(../../static/img/page1shadow.png) 0 0 no-repeat; background-size: cover; position: absolute; left: 0; top: 0; z-index: 2;}
 .page1top{ position: absolute; left: 50%; transform: translateX(-50%); width: 294rem; height: 140rem;
