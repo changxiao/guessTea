@@ -130,7 +130,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-.page2{  position: relative; background-image: url(/static/page2bg.png);
+.page2{  position: relative; background-image: url(/static/img/page2bg.png);
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -142,7 +142,7 @@ export default {
     .toptext{ padding-top: 270rem; font-size: 60rem; line-height: 100rem; }
   }
 }
-.page2ques{ width: 530rem; height: 276rem; background: url(/static/page2select.png) 0 0 no-repeat; background-size:cover; padding:100rem 110rem; display: flex; justify-content: space-around;
+.page2ques{ width: 530rem; height: 276rem; background: url(/static/img/page2select.png) 0 0 no-repeat; background-size:cover; padding:100rem 110rem; display: flex; justify-content: space-around;
   .fore{ width: 33%;
     img{ width: 100%;}
   }
@@ -154,6 +154,6 @@ export default {
   .picw{ width: 232rem; height: 232rem; margin: 0 auto;
     img{ display: block; width: 100%; height: 100%;}
   }
-  .ans{ width: 266rem; height: 122rem; margin: 0 auto; background: url(/static/page2titlebg.png) 0 0 no-repeat; background-size: cover; font-size: 30rem; color: #333; overflow: hidden; white-space: nowrap; line-height: 122rem;}
+  .ans{ width: 266rem; height: 122rem; margin: 0 auto; background: url(/static/img/page2titlebg.png) 0 0 no-repeat; background-size: cover; font-size: 30rem; color: #333; overflow: hidden; white-space: nowrap; line-height: 122rem;}
 }
 </style>
