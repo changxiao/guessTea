@@ -130,7 +130,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-.page2{  position: relative; background-image: url(../../static/img/page2bg.png);
+.page2{  position: relative; background-image: url(../../static/img/page2bg.jpg);
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
